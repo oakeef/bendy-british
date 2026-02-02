@@ -1,23 +1,24 @@
-import React from "react"
-import type { Metadata } from 'next'
-import { Cormorant_Garamond, Nunito_Sans } from 'next/font/google'
-import './globals.css'
+import React from 'react';
+import type { Metadata } from 'next';
+import { Cormorant_Garamond, Nunito_Sans } from 'next/font/google';
+import './globals.css';
 
-const cormorant = Cormorant_Garamond({ 
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-serif"
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-serif',
 });
 
-const nunito = Nunito_Sans({ 
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-sans"
+const nunito = Nunito_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-sans',
 });
 
 export const metadata: Metadata = {
   title: 'Judy Roberts Yoga',
-  description: 'Specialized yoga instruction for figure skaters and all bodies. Private classes, retreats, and more. Join the journey to balance, strength, and inner peace.',
+  description:
+    'Specialized yoga instruction for figure skaters and all bodies. Private classes, retreats, and more. Join the journey to balance, strength, and inner peace.',
   icons: {
     icon: [
       {
@@ -35,18 +36,20 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${cormorant.variable} ${nunito.variable} font-sans antialiased`}>
+      <body
+        className={`${cormorant.variable} ${nunito.variable} font-sans antialiased`}
+      >
         {children}
       </body>
     </html>
-  )
+  );
 }
