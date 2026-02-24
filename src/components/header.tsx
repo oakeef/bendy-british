@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Logo from './ui/logo';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -24,7 +25,7 @@ export function Header() {
             href="/"
             className="text-primary font-serif text-2xl font-semibold tracking-wide"
           >
-            Judy Roberts Yoga
+          <Logo />
           </Link>
 
           {/* Desktop Navigation */}

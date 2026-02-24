@@ -5,12 +5,12 @@ import { Instagram } from 'lucide-react';
 import Link from 'next/link';
 
 const galleryImages = [
-  { src: '/images/yoga1.jpg', alt: 'Outdoor yoga class at sunset' },
-  { src: '/images/yoga2.jpg', alt: 'Meditation hands in mudra' },
-  { src: '/images/yoga3.jpg', alt: 'Beach yoga at sunrise' },
-  { src: '/images/yoga4.jpg', alt: "Children's yoga class" },
-  { src: '/images/yoga5.jpg', alt: 'Restorative yoga practice' },
-  { src: '/images/yoga6.jpg', alt: 'Yoga retreat in nature' },
+  { src: '/images/image6.jpg', alt: 'Outdoor yoga class at sunset' },
+  { src: '/images/image1.jpg', alt: 'Meditation hands in mudra' },
+  { src: '/images/image4.jpg', alt: 'Beach yoga at sunrise' },
+  { src: '/images/image12.jpg', alt: "Children's yoga class" },
+  { src: '/images/image5.jpg', alt: 'Restorative yoga practice' },
+  { src: '/images/image8.jpg', alt: 'Yoga retreat in nature' },
 ];
 
 export function Gallery() {

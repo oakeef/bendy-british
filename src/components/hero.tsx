@@ -10,7 +10,7 @@ export function Hero() {
     >
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/yoga2.jpg"
+          src="/images/yogacandles.jpg"
           alt="Yoga practice on the beach at sunset"
           fill
           className="object-cover"
@@ -25,26 +25,27 @@ export function Hero() {
             <p className="text-primary text-sm font-medium tracking-[0.3em] uppercase">
               Welcome
             </p>
-            <h1 className="text-foreground font-serif text-5xl leading-tight font-semibold text-balance md:text-6xl lg:text-7xl">
-              Find Your Flow,
-              <br />
-              <span className="text-primary">On & Off the Ice</span>
+            <h1 className="text-foreground font-serif text-4xl leading-tight font-semibold text-balance md:text-5xl lg:text-6xl">
+              Rest - Recover - Renew
             </h1>
           </div>
 
           <p className="text-foreground/80 max-w-lg text-lg leading-relaxed">
-            Hi, I’m Judy. I believe yoga is the ultimate recovery for a life
-            well-lived. Whether you’re an athlete looking to stay in the game or
-            a neighbor seeking a moment of calm, I’m here to help you
-            recalibrate your mind and soul.
+            Hi, I’m Judy. I believe that yoga is the ultimate practice to compliment a balanced life. It is an honour to
+            have you here and share this space with you. I offer a varied schedule of classes, ranging from higher 
+            intensity, specialised practice, to full rest and restore sessions.
           </p>
 
           <p className="text-foreground/70 leading-relaxed">
-            After moving from the UK to the shores of Nova Scotia, I fell in
-            love with the ocean and the healing power of the Atlantic. My
-            practice blends 200hrs of YTT training with a passion for Yin and
-            Restorative yoga, creating a space that echoes the welcoming spirit
-            of the East Coast.
+            Graduating with my 200hr Yoga Teacher certification on October 2025. I have since also certified in Yin Yoga,
+            Restorative Yoga and Children’s Yoga. In total I now hold over 300hrs of Yoga teacher training
+            certifications, and am registered with Yoga Alliance Canada.
+          </p>
+
+          <p className="text-foreground/70 leading-relaxed">
+            Balancing all the demands of modern life, can be challenging. My hope is that my classes can offer an
+            escape and recalibration to enable you to find balance, peace and inner power to go forward in your
+            most authentic self.
           </p>
 
           <div className="flex flex-wrap gap-4">

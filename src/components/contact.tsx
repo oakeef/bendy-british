@@ -1,4 +1,4 @@
-import { Mail, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Mail, Instagram, Youtube } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
@@ -8,7 +8,6 @@ const socialLinks = [
     href: 'https://www.instagram.com/judyrobertsyoga/',
     label: 'Instagram',
   },
-  { icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
   { icon: Youtube, href: 'https://youtube.com', label: 'YouTube' },
 ];
 
