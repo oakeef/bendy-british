@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const otherClasses = [
@@ -66,9 +68,9 @@ export function Classes() {
           {otherClasses.map((classItem) => (
             <Card
               key={classItem.title}
-              className="group hover:border-primary/50 transition-colors"
+              className="group hover:border-primary/50 transition-colors flex flex-col py-0"
             >
-              <div className="relative h-64 w-full overflow-hidden">
+              <div className="relative aspect-square w-full overflow-hidden rounded-t-xl">
                 <Image
                   src={classItem.image}
                   alt={classItem.title}
@@ -76,13 +78,24 @@ export function Classes() {
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <CardContent className="p-6">
+              <CardContent className="p-6 flex flex-col flex-1">
                 <h3 className="text-foreground mb-2 font-serif text-xl font-semibold">
                   {classItem.title}
                 </h3>
-                <p className="text-foreground/70 text-sm leading-relaxed">
+                <p className="text-foreground/70 text-sm leading-relaxed flex-1">
                   {classItem.description}
                 </p>
+                <div className="mt-6">
+                  <Button
+                    asChild
+                    size="default"
+                    className="bg-primary text-primary-foreground hover:bg-primary/90 w-full"
+                  >
+                    <Link href="https://judyrobertsyoga.setmore.com" target="_blank" rel="noopener noreferrer">
+                      Book Now
+                    </Link>
+                  </Button>
+                </div>
                 <br />
                 <small>{classItem.length}</small>
               </CardContent>

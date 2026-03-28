@@ -1,0 +1,13 @@
+# Judy Roberts Yoga - robots.txt
+# Allow all bots to crawl the site
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /.next/
+
+# Sitemaps
+Sitemap: https://judyrobertsyoga.com/sitemap.xml
+
+# Crawl delay settings
+Crawl-delay: 1
+Request-rate: 10/1s

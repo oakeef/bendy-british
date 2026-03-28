@@ -8,18 +8,7 @@ export function Hero() {
       id="about"
       className="relative flex min-h-screen items-center pt-20"
     >
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/yogacandles.jpg"
-          alt="Yoga practice on the beach at sunset"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="bg-background/60 absolute inset-0" />
-      </div>
-
-      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-2">
         <div className="space-y-8">
           <div className="space-y-4">
             <p className="text-primary text-sm font-medium tracking-[0.3em] uppercase">
@@ -54,17 +43,31 @@ export function Hero() {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
+              <Link href="https://judyrobertsyoga.setmore.com" target="_blank" rel="noopener noreferrer">Book Now</Link>
+            </Button>
+            <Button
+              asChild
+              variant="secondary"
+              size="lg"
+            >
               <Link href="#classes">Explore Classes</Link>
             </Button>
             <Button
               asChild
-              variant="outline"
+              variant="secondary"
               size="lg"
-              className="border-primary text-primary hover:bg-primary/10 bg-transparent"
             >
               <Link href="#contact">Get in Touch</Link>
             </Button>
           </div>
+        </div>
+        <div className="relative h-96 w-full md:h-full">
+          <Image
+            src="/images/yogacandles.jpg"
+            alt="Judy Roberts yoga practice"
+            fill
+            className="object-cover rounded-lg"
+          />
         </div>
       </div>
     </section>
