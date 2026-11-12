@@ -19,12 +19,12 @@ const nunito = Nunito_Sans({
 export const metadata: Metadata = {
   title: 'Judy Roberts Yoga',
   description:
-    'Specialized yoga instruction for figure skaters and all bodies. Private classes, retreats, and more. Join the journey to balance, strength, and inner peace.',
+    'Specialized yoga instruction for all bodies. Private classes, retreats, and more. Join the journey to balance, strength, and inner peace.',
   metadataBase: new URL('https://judyrobertsyoga.com'),
   openGraph: {
-    title: 'Judy Roberts Yoga - Specialized Classes for Figure Skaters',
+    title: 'Judy Roberts Yoga',
     description:
-      'Specialized yoga instruction for figure skaters and all bodies. Private classes, retreats, and more. Join the journey to balance, strength, and inner peace.',
+      'Specialized yoga instruction for all bodies. Private classes, retreats, and more. Join the journey to balance, strength, and inner peace.',
     url: 'https://judyrobertsyoga.com',
     siteName: 'Judy Roberts Yoga',
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Judy Roberts Yoga',
     description:
-      'Specialized yoga instruction for figure skaters and all bodies.',
+      'Specialized yoga instruction for all bodies.',
     images: ['/images/yogacandles.jpg'],
   },
   icons: {
@@ -74,7 +74,7 @@ export default function RootLayout({
     '@type': 'LocalBusiness',
     name: 'Judy Roberts Yoga',
     description:
-      'Specialized yoga instruction for figure skaters and all bodies',
+      'Specialized yoga instruction for all bodies',
     url: 'https://judyrobertsyoga.com',
     telephone: '',
     email: 'judyrobertsyoga@gmail.com',

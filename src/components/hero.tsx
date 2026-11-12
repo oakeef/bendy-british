@@ -22,7 +22,7 @@ export function Hero() {
           <p className="text-foreground/80 max-w-lg text-lg leading-relaxed">
             Hi, I’m Judy. I believe that yoga is the ultimate practice to compliment a balanced life. It is an honour to
             have you here and share this space with you. I offer a varied schedule of classes, ranging from higher 
-            intensity, specialised practice, to full rest and restore sessions.
+            intensity, specialized practice, to full rest and restore sessions.
           </p>
 
           <p className="text-foreground/70 leading-relaxed">
