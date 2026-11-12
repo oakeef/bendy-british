@@ -5,43 +5,43 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const otherClasses = [
   {
-    title: 'Yoga for Figure Skaters',
+    title: '60 Minute Class – In Person',
     description:
-      'A speciality 60 Minute class which combines my love for figure skating, and yoga to complement existing personal training practices. As a adult beginner figure skater, I have found yoga to be incredibly helpful in improving my balance, strength, flexibility and mental focus. I wanted to offer a class which may also help other adult Figure skaters in the own skating development.',
-    image: '/images/yogaskating.jpg',
+      'Held in person, in the Studio at Dartmouth Sport + Spine, a 60 minute small group class (can also be booked as a private class) focussed on mobility, strength, balance and calm. Bookable Online (for private booking please email).',
+    image: '/images/privateclass.jpg',
     featured: true,
     length: '',
   },
   {
-    title: 'Rest and Restore Yoga',
+    title: '60 Minute Class – Online',
     description:
-      'A 60 Minute class that blends a bit of everything – Some higher intensity flows with some calm, restorative in nature poses to rest the body.',
+      'Held online via Zoom, a 60 Minute class that blends a bit of everything – Some higher intensity flows with some calm, restorative poses to rest & reset the body & Mind.',
     image: '/images/image9.jpg',
   },
   {
-    title: 'Natural Connection',
+    title: 'Private Classes',
     description:
-      'Varied classes held outside in nature (in the woods, on the beach, on a patio) being in the natural elements, offering an additional grounding space to explore without limitations.',
-    image: '/images/image13.jpg',
-  },
-  {
-    title: 'Yin Yoga',
-    description:
-      'A 60 Minute slow and grounding practice to help you find comfort in the uncomfortable. By holding floor- based poses for 5 to 15 minutes, we reach a deep sense of stillness using props like bolsters and blankets to support the meditative journey.',
-    image: '/images/image7.jpg',
-    length: '',
-  },
-  {
-    title: 'Retreats & Private Classes',
-    description:
-      'An hour, a day, a weekend, or a week spent with other like-minded people, who collaborate with shared energy. Private Classes and Retreats can vary in theme and can be tailored to specific needs.',
+      'Held in person or online – tailored to your individual needs.',
     image: '/images/image2.jpg',
   },
   {
-    title: "Ocean Therapy Yoga",
+    title: 'Ocean Therapy & Natural Connection',
     description:
-      'Combining A variety of yoga practices including asana, Pranayama (Breathwork) and Meditation with the benefits of fresh water healing (Ocean, Lake, Rivers, Pools).',
+      'Held in person, outside in nature, either 60 or 90 minute class that combines A variety of yoga practices including asana, Pranayama (Breathwork) and Meditation with the benefits of fresh water healing (Ocean, Lake, Rivers, Pools).',
     image: '/images/image14.jpg',
+    length: '',
+  },
+  {
+    title: 'Yin & Restorative',
+    description:
+      'Held in person or online, A 60 Minute slow and grounding practice to help you find comfort in the uncomfortable. By holding floor- based poses for 5 to 15 minutes, we reach a deep sense of stillness using props like bolsters and blankets to support the meditative journey.',
+    image: '/images/image7.jpg',
+  },
+  {
+    title: "Retreats",
+    description:
+      'Held in person, A half day, full day or multi day customisable retreat for full body and mind reset. Please email to enquire.',
+    image: '/images/image13.jpg',
     length: '',
   },
 ];
